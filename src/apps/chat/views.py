@@ -4,7 +4,8 @@ from .forms import RoomsForm, MessageForm
 from .models import Rooms, Message
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-from chat.decorators import login_required
+from src.apps.chat.decorators import login_required
+
 from django.utils.decorators import method_decorator
 
 
